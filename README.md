@@ -29,8 +29,6 @@ fastapi-user-auth/
 - `app/schemas/user.py`: Contains Pydantic models for request/response validation.
 - `app/routers/auth.py`: Defines the API endpoints for user registration, login, and profile retrieval.
 - `app/services/auth.py`: Implements authentication-related functions like password hashing and token generation.
-- `.env`: Contains environment variables (not tracked by Git).
-- `.gitignore`: Specifies files and directories that Git should ignore.
 - `requirements.txt`: Lists all Python dependencies for the project.
 
 ## Run the application using the command: 
