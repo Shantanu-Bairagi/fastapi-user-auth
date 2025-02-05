@@ -1,21 +1,24 @@
 ## Project Structure
+
+<pre>
 fastapi-user-auth/
 ├── app/
-│ ├── main.py
-│ ├── database.py
-│ ├── config.py
-│ ├── models/
-│ │ └── user.py
-│ ├── schemas/
-│ │ └── user.py
-│ ├── routers/
-│ │ └── auth.py
-│ └── services/
-│ └── auth.py
+│   ├── main.py
+│   ├── database.py
+│   ├── config.py
+│   ├── models/
+│   │   └── user.py
+│   ├── schemas/
+│   │   └── user.py
+│   ├── routers/
+│   │   └── auth.py
+│   └── services/
+│       └── auth.py
 ├── .env
 ├── .gitignore
 ├── requirements.txt
 └── README.md
+</pre>
 
 ## File Descriptions
 
